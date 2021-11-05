@@ -1,0 +1,27 @@
+# from collections import deque
+# queue=deque()
+# queue.append(1)
+# queue.append(2)
+# queue.append(3)
+# print(queue)
+# print(queue.popleft())
+# print(queue.popleft())
+# print(queue.popleft())
+# print(queue)
+
+from collections import deque
+queue=deque()
+queue.append(1)
+queue.append(2)
+queue.append(3)
+print(queue)
+print(queue.popleft())
+print(queue.popleft())
+print(queue)
+queue.append(11)
+queue.append(22)
+queue.append(33)
+print(queue)
+#print(queue.reverse())#이렇게 하면 안됨, None
+queue.reverse()
+print(queue)
